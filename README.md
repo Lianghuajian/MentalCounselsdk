@@ -1,4 +1,5 @@
 # MentalCounselsdk
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/lianghuajian/MentalCounselsdk.svg?style=flat)](https://travis-ci.org/lianghuajian/MentalCounselsdk)
 [![Version](https://img.shields.io/cocoapods/v/MentalCounselsdk.svg?style=flat)](https://cocoapods.org/pods/MentalCounselsdk)
@@ -27,3 +28,5 @@ lianghuajian, 624935495@qq.com
 ## License
 
 MentalCounselsdk is available under the MIT license. See the LICENSE file for more info.
+=======
+>>>>>>> 324e20eadd9ae264b42d70a3c02253bb0102b984
