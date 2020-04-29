@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MentalCounselsdk_Example' do
+  pod 'MentalCounselsdk', :path => '../'
+
+  target 'MentalCounselsdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
