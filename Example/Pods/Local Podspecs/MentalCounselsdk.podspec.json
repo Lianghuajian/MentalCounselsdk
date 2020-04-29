@@ -1,0 +1,24 @@
+{
+  "name": "MentalCounselsdk",
+  "version": "0.1.0",
+  "summary": "Base sdk for project MentalCounsel.",
+  "description": "A sdk for better develop the project MentalCounsel.",
+  "homepage": "https://github.com/lianghuajian/MentalCounselsdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lianghuajian": "624935495@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lianghuajian/MentalCounselsdk.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MentalCounselsdk/Classes/**/*",
+  "swift_version": "5.0"
+}

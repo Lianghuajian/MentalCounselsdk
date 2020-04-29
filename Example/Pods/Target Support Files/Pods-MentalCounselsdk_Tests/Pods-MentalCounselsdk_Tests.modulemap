@@ -1,0 +1,6 @@
+framework module Pods_MentalCounselsdk_Tests {
+  umbrella header "Pods-MentalCounselsdk_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

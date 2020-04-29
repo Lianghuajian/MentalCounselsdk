@@ -1,0 +1,6 @@
+framework module MentalCounselsdk {
+  umbrella header "MentalCounselsdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

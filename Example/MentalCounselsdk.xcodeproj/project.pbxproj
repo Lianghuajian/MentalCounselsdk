@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		04E10CDD9EAC620E09BF9F6A /* Pods-MentalCounselsdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalCounselsdk_Example.release.xcconfig"; path = "Target Support Files/Pods-MentalCounselsdk_Example/Pods-MentalCounselsdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1595642F2AC13A48010129BC /* Pods-MentalCounselsdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalCounselsdk_Tests.release.xcconfig"; path = "Target Support Files/Pods-MentalCounselsdk_Tests/Pods-MentalCounselsdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		221B947E3B2DF20AD6D45250 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2B8730E381CDBFEF30FB49A5 /* MentalCounselsdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MentalCounselsdk.podspec; path = ../MentalCounselsdk.podspec; sourceTree = "<group>"; };
+		221B947E3B2DF20AD6D45250 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2B8730E381CDBFEF30FB49A5 /* MentalCounselsdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MentalCounselsdk.podspec; path = ../MentalCounselsdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		576BC2B7D28FF0145CD2F97F /* Pods-MentalCounselsdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalCounselsdk_Example.debug.xcconfig"; path = "Target Support Files/Pods-MentalCounselsdk_Example/Pods-MentalCounselsdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MentalCounselsdk_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalCounselsdk_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* MentalCounselsdk_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalCounselsdk_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		70C194774F2487B96DD2B613 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		70C194774F2487B96DD2B613 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		84242F37B0EDB9B14532831A /* Pods_MentalCounselsdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalCounselsdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB5288FE1A91EF9C778FE83 /* Pods_MentalCounselsdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalCounselsdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B3991870BBE8A94ED055B9 /* Pods-MentalCounselsdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MentalCounselsdk_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MentalCounselsdk_Tests/Pods-MentalCounselsdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				C4B3991870BBE8A94ED055B9 /* Pods-MentalCounselsdk_Tests.debug.xcconfig */,
 				1595642F2AC13A48010129BC /* Pods-MentalCounselsdk_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

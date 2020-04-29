@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A8FF3C1FC2CF588402A98DADB7EF37 /* MentalCounselsdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D76FE9770EF58DAD523D7413998FE57B /* MentalCounselsdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07EAB2D26ABA539CC9E7CE0140753B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		11D270EADCC0BE4821CCA7B2833ABB4F /* Pods-MentalCounselsdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC8DAAB78D272BF6943242B90D5ACD1 /* Pods-MentalCounselsdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3178B481CDF6097DA09AC5689188E442 /* Pods-MentalCounselsdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14353B8D6E9F4F4901F00C6BC443217D /* Pods-MentalCounselsdk_Tests-dummy.m */; };
+		34BF020E52D9ADAAAF90CB62355C1AA2 /* Pods-MentalCounselsdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1A4A3A5723B100923423656E990612 /* Pods-MentalCounselsdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56DA6AAA27E417E157B3F7F76D65E1DD /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8137A651EC5227733610B082384485A8 /* BundleExtensions.swift */; };
+		5714DF355B6E9B94D651A4FEE3DEE947 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		923917D23672541EA7FCD9E26A4B78FF /* MentalCounselsdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F43CF8144EF04E0ADB6A3DC664C983F /* MentalCounselsdk-dummy.m */; };
+		A55410896E81672FADABCBDE52DCA1DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AA082FC3A16230B0782BC2FBBA6191AF /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6465A5FDCA5384E18AAE5A82E56B71 /* UIImageExtensions.swift */; };
+		BE8291E8D19B38912CB4F703133CA845 /* Pods-MentalCounselsdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F58E0AE4D85A5248D52FC1D6C44710C0 /* Pods-MentalCounselsdk_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		902E0ECBED3381A009E0F728A27E794C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195A3C4B001164D2367FF1D5FF735C32;
+			remoteInfo = "Pods-MentalCounselsdk_Example";
+		};
+		BD5FD9EB857CE4C7224F0344FA3DD358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE1A6C89EAFAC8A4BA51F3C3BC723C0D;
+			remoteInfo = MentalCounselsdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D7C3222EA4151B8AF60DB35C4CEF7C7 /* Pods-MentalCounselsdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalCounselsdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E148CC72A56434B30A49ADCAB69D67C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		14353B8D6E9F4F4901F00C6BC443217D /* Pods-MentalCounselsdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MentalCounselsdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		26EB9E68E36C26F132CF07E7ABF7FA37 /* Pods-MentalCounselsdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalCounselsdk_Example-Info.plist"; sourceTree = "<group>"; };
+		2D2AA2A985863920B6918E55CF6321DE /* Pods-MentalCounselsdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalCounselsdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		31C441BDE6EDBBE073906AD9F0A2A51B /* Pods_MentalCounselsdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MentalCounselsdk_Tests.framework; path = "Pods-MentalCounselsdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38E431087952AE6D43E2AAB7332153EE /* Pods-MentalCounselsdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MentalCounselsdk_Tests.modulemap"; sourceTree = "<group>"; };
+		496575087E69D2F6ADA0A59F7A07057E /* Pods-MentalCounselsdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MentalCounselsdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EC8DAAB78D272BF6943242B90D5ACD1 /* Pods-MentalCounselsdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MentalCounselsdk_Example-umbrella.h"; sourceTree = "<group>"; };
+		6A069FE1BA9E983AFAFC0AA6E7F1A73F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6BB57A8A2ACD09C9213496B35E2A3CAB /* MentalCounselsdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MentalCounselsdk.modulemap; sourceTree = "<group>"; };
+		6EA812A91A0034A8698B9B72DD5A4702 /* Pods-MentalCounselsdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalCounselsdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		715F9D2F22A491038A67A6BF03440D8D /* Pods-MentalCounselsdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalCounselsdk_Tests-Info.plist"; sourceTree = "<group>"; };
+		792369C0C7749694758A66FADCE11C7A /* Pods-MentalCounselsdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MentalCounselsdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8137A651EC5227733610B082384485A8 /* BundleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleExtensions.swift; path = MentalCounselsdk/Classes/BundleExtensions.swift; sourceTree = "<group>"; };
+		8A3B023EA06425095F035A4A7D4AAC6D /* MentalCounselsdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MentalCounselsdk-Info.plist"; sourceTree = "<group>"; };
+		8AB9871A6CC33D13D8D138763DEF5E9E /* MentalCounselsdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MentalCounselsdk.xcconfig; sourceTree = "<group>"; };
+		8CC6C08423117A67D545E1E5C89AF651 /* Pods-MentalCounselsdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalCounselsdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8E1A4A3A5723B100923423656E990612 /* Pods-MentalCounselsdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MentalCounselsdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E6465A5FDCA5384E18AAE5A82E56B71 /* UIImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = MentalCounselsdk/Classes/UIImageExtensions.swift; sourceTree = "<group>"; };
+		9F43CF8144EF04E0ADB6A3DC664C983F /* MentalCounselsdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MentalCounselsdk-dummy.m"; sourceTree = "<group>"; };
+		9FDFF3FE439034F84D61DC45290CE164 /* Pods-MentalCounselsdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MentalCounselsdk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ABBCB54AA9181F8F328142A70D2E0405 /* MentalCounselsdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MentalCounselsdk-prefix.pch"; sourceTree = "<group>"; };
+		AC630255A57F0141AA17D9022620A2EF /* Pods-MentalCounselsdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalCounselsdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD514A704222E51FF9DD54BB40085B60 /* MentalCounselsdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MentalCounselsdk.framework; path = MentalCounselsdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76FE9770EF58DAD523D7413998FE57B /* MentalCounselsdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MentalCounselsdk-umbrella.h"; sourceTree = "<group>"; };
+		E474A354AAEBF5DBB121D24AA7E30CB4 /* Pods-MentalCounselsdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MentalCounselsdk_Example.modulemap"; sourceTree = "<group>"; };
+		E9875B31A9E3C1AFEA9D4DB5791033D2 /* Pods-MentalCounselsdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalCounselsdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EA670D797769EEC89BA5CC792A43C7A6 /* MentalCounselsdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MentalCounselsdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F58E0AE4D85A5248D52FC1D6C44710C0 /* Pods-MentalCounselsdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MentalCounselsdk_Example-dummy.m"; sourceTree = "<group>"; };
+		FAA4FBC4E39062552806F88E37E8D044 /* Pods_MentalCounselsdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MentalCounselsdk_Example.framework; path = "Pods-MentalCounselsdk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D5A5C27A7E279D4719642AFB433D299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EAB2D26ABA539CC9E7CE0140753B8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED5230AA1DF9203F185EE2E67237A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55410896E81672FADABCBDE52DCA1DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8994614F78BE23105FBE22620AADBF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5714DF355B6E9B94D651A4FEE3DEE947 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CF76FFAC45EC189C247F5491D87A72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BB57A8A2ACD09C9213496B35E2A3CAB /* MentalCounselsdk.modulemap */,
+				8AB9871A6CC33D13D8D138763DEF5E9E /* MentalCounselsdk.xcconfig */,
+				9F43CF8144EF04E0ADB6A3DC664C983F /* MentalCounselsdk-dummy.m */,
+				8A3B023EA06425095F035A4A7D4AAC6D /* MentalCounselsdk-Info.plist */,
+				ABBCB54AA9181F8F328142A70D2E0405 /* MentalCounselsdk-prefix.pch */,
+				D76FE9770EF58DAD523D7413998FE57B /* MentalCounselsdk-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MentalCounselsdk";
+			sourceTree = "<group>";
+		};
+		13392D55FD154C601028CF31B9D14147 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DA254B83BDB408CEDDDAA0321394EBA /* MentalCounselsdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		30861556804A00F79E8D9F73701BE00F /* Pods-MentalCounselsdk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E474A354AAEBF5DBB121D24AA7E30CB4 /* Pods-MentalCounselsdk_Example.modulemap */,
+				496575087E69D2F6ADA0A59F7A07057E /* Pods-MentalCounselsdk_Example-acknowledgements.markdown */,
+				6EA812A91A0034A8698B9B72DD5A4702 /* Pods-MentalCounselsdk_Example-acknowledgements.plist */,
+				F58E0AE4D85A5248D52FC1D6C44710C0 /* Pods-MentalCounselsdk_Example-dummy.m */,
+				9FDFF3FE439034F84D61DC45290CE164 /* Pods-MentalCounselsdk_Example-frameworks.sh */,
+				26EB9E68E36C26F132CF07E7ABF7FA37 /* Pods-MentalCounselsdk_Example-Info.plist */,
+				5EC8DAAB78D272BF6943242B90D5ACD1 /* Pods-MentalCounselsdk_Example-umbrella.h */,
+				2D2AA2A985863920B6918E55CF6321DE /* Pods-MentalCounselsdk_Example.debug.xcconfig */,
+				E9875B31A9E3C1AFEA9D4DB5791033D2 /* Pods-MentalCounselsdk_Example.release.xcconfig */,
+			);
+			name = "Pods-MentalCounselsdk_Example";
+			path = "Target Support Files/Pods-MentalCounselsdk_Example";
+			sourceTree = "<group>";
+		};
+		5DA254B83BDB408CEDDDAA0321394EBA /* MentalCounselsdk */ = {
+			isa = PBXGroup;
+			children = (
+				8137A651EC5227733610B082384485A8 /* BundleExtensions.swift */,
+				9E6465A5FDCA5384E18AAE5A82E56B71 /* UIImageExtensions.swift */,
+				63A23989930C74ADB9E36C6F55F91B07 /* Pod */,
+				04CF76FFAC45EC189C247F5491D87A72 /* Support Files */,
+			);
+			name = MentalCounselsdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		63A23989930C74ADB9E36C6F55F91B07 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E148CC72A56434B30A49ADCAB69D67C /* LICENSE */,
+				EA670D797769EEC89BA5CC792A43C7A6 /* MentalCounselsdk.podspec */,
+				6A069FE1BA9E983AFAFC0AA6E7F1A73F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				13392D55FD154C601028CF31B9D14147 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DF9D0966B756FD8A8320E64193338FB8 /* Products */,
+				D046BF846753F5FE44A6C0A528DB98F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D046BF846753F5FE44A6C0A528DB98F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30861556804A00F79E8D9F73701BE00F /* Pods-MentalCounselsdk_Example */,
+				F4832EE0225BD3864989CEF488338D92 /* Pods-MentalCounselsdk_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF9D0966B756FD8A8320E64193338FB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD514A704222E51FF9DD54BB40085B60 /* MentalCounselsdk.framework */,
+				FAA4FBC4E39062552806F88E37E8D044 /* Pods_MentalCounselsdk_Example.framework */,
+				31C441BDE6EDBBE073906AD9F0A2A51B /* Pods_MentalCounselsdk_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4832EE0225BD3864989CEF488338D92 /* Pods-MentalCounselsdk_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				38E431087952AE6D43E2AAB7332153EE /* Pods-MentalCounselsdk_Tests.modulemap */,
+				792369C0C7749694758A66FADCE11C7A /* Pods-MentalCounselsdk_Tests-acknowledgements.markdown */,
+				0D7C3222EA4151B8AF60DB35C4CEF7C7 /* Pods-MentalCounselsdk_Tests-acknowledgements.plist */,
+				14353B8D6E9F4F4901F00C6BC443217D /* Pods-MentalCounselsdk_Tests-dummy.m */,
+				715F9D2F22A491038A67A6BF03440D8D /* Pods-MentalCounselsdk_Tests-Info.plist */,
+				8E1A4A3A5723B100923423656E990612 /* Pods-MentalCounselsdk_Tests-umbrella.h */,
+				AC630255A57F0141AA17D9022620A2EF /* Pods-MentalCounselsdk_Tests.debug.xcconfig */,
+				8CC6C08423117A67D545E1E5C89AF651 /* Pods-MentalCounselsdk_Tests.release.xcconfig */,
+			);
+			name = "Pods-MentalCounselsdk_Tests";
+			path = "Target Support Files/Pods-MentalCounselsdk_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		068DDB68EF5171BC056E959870579375 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BF020E52D9ADAAAF90CB62355C1AA2 /* Pods-MentalCounselsdk_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160F0849E565A4EB4199744670304CA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D270EADCC0BE4821CCA7B2833ABB4F /* Pods-MentalCounselsdk_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378AF617AC38AA2C5B70104B4D5A5689 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A8FF3C1FC2CF588402A98DADB7EF37 /* MentalCounselsdk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		195A3C4B001164D2367FF1D5FF735C32 /* Pods-MentalCounselsdk_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8591FF6D3AA0258C99E5672FDBF2FCDE /* Build configuration list for PBXNativeTarget "Pods-MentalCounselsdk_Example" */;
+			buildPhases = (
+				160F0849E565A4EB4199744670304CA3 /* Headers */,
+				714AD83099A8A6F4587E4EA19E079731 /* Sources */,
+				AED5230AA1DF9203F185EE2E67237A5B /* Frameworks */,
+				AD4CDA690BAF4BBACED953C675B2DEAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F1DE6B5D801BB9FBEFBDD65108D98F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-MentalCounselsdk_Example";
+			productName = "Pods-MentalCounselsdk_Example";
+			productReference = FAA4FBC4E39062552806F88E37E8D044 /* Pods_MentalCounselsdk_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A3A08AFF02CA53AF271322486807B7C /* Pods-MentalCounselsdk_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1801EEBA4A945E6E1CE978BE3797E5F5 /* Build configuration list for PBXNativeTarget "Pods-MentalCounselsdk_Tests" */;
+			buildPhases = (
+				068DDB68EF5171BC056E959870579375 /* Headers */,
+				98BDF8D3731FFC0C88B4DFD33E090C01 /* Sources */,
+				9D5A5C27A7E279D4719642AFB433D299 /* Frameworks */,
+				26ECE986707B16ABDBF1C3A8D35E3541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F368491C4D7AA51E6B1891C9191B75A /* PBXTargetDependency */,
+			);
+			name = "Pods-MentalCounselsdk_Tests";
+			productName = "Pods-MentalCounselsdk_Tests";
+			productReference = 31C441BDE6EDBBE073906AD9F0A2A51B /* Pods_MentalCounselsdk_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE1A6C89EAFAC8A4BA51F3C3BC723C0D /* MentalCounselsdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D29E5E69C980810D9ECFD7D5095CE10 /* Build configuration list for PBXNativeTarget "MentalCounselsdk" */;
+			buildPhases = (
+				378AF617AC38AA2C5B70104B4D5A5689 /* Headers */,
+				9052213E25137F852EF4D3E25999D225 /* Sources */,
+				C8994614F78BE23105FBE22620AADBF8 /* Frameworks */,
+				DBFD82F270D24A779FB2C8CD4A993F6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MentalCounselsdk;
+			productName = MentalCounselsdk;
+			productReference = AD514A704222E51FF9DD54BB40085B60 /* MentalCounselsdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DF9D0966B756FD8A8320E64193338FB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE1A6C89EAFAC8A4BA51F3C3BC723C0D /* MentalCounselsdk */,
+				195A3C4B001164D2367FF1D5FF735C32 /* Pods-MentalCounselsdk_Example */,
+				7A3A08AFF02CA53AF271322486807B7C /* Pods-MentalCounselsdk_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26ECE986707B16ABDBF1C3A8D35E3541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4CDA690BAF4BBACED953C675B2DEAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFD82F270D24A779FB2C8CD4A993F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		714AD83099A8A6F4587E4EA19E079731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8291E8D19B38912CB4F703133CA845 /* Pods-MentalCounselsdk_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9052213E25137F852EF4D3E25999D225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56DA6AAA27E417E157B3F7F76D65E1DD /* BundleExtensions.swift in Sources */,
+				923917D23672541EA7FCD9E26A4B78FF /* MentalCounselsdk-dummy.m in Sources */,
+				AA082FC3A16230B0782BC2FBBA6191AF /* UIImageExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98BDF8D3731FFC0C88B4DFD33E090C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3178B481CDF6097DA09AC5689188E442 /* Pods-MentalCounselsdk_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F368491C4D7AA51E6B1891C9191B75A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MentalCounselsdk_Example";
+			target = 195A3C4B001164D2367FF1D5FF735C32 /* Pods-MentalCounselsdk_Example */;
+			targetProxy = 902E0ECBED3381A009E0F728A27E794C /* PBXContainerItemProxy */;
+		};
+		8F1DE6B5D801BB9FBEFBDD65108D98F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MentalCounselsdk;
+			target = EE1A6C89EAFAC8A4BA51F3C3BC723C0D /* MentalCounselsdk */;
+			targetProxy = BD5FD9EB857CE4C7224F0344FA3DD358 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1366B5E9926387AEFFB390CB251E0030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB9871A6CC33D13D8D138763DEF5E9E /* MentalCounselsdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MentalCounselsdk/MentalCounselsdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MentalCounselsdk/MentalCounselsdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MentalCounselsdk/MentalCounselsdk.modulemap";
+				PRODUCT_MODULE_NAME = MentalCounselsdk;
+				PRODUCT_NAME = MentalCounselsdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24008FB390396E404E0F0DDD978D72A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9875B31A9E3C1AFEA9D4DB5791033D2 /* Pods-MentalCounselsdk_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MentalCounselsdk_Example/Pods-MentalCounselsdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MentalCounselsdk_Example/Pods-MentalCounselsdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4909D3276C395F92ABCAAFCC687F6D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC6C08423117A67D545E1E5C89AF651 /* Pods-MentalCounselsdk_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MentalCounselsdk_Tests/Pods-MentalCounselsdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MentalCounselsdk_Tests/Pods-MentalCounselsdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75E1260C30888DFD4CAD5E016E40FCAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC630255A57F0141AA17D9022620A2EF /* Pods-MentalCounselsdk_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MentalCounselsdk_Tests/Pods-MentalCounselsdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MentalCounselsdk_Tests/Pods-MentalCounselsdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C16F4A1014FE3579FF61B62DF1AF9ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2AA2A985863920B6918E55CF6321DE /* Pods-MentalCounselsdk_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MentalCounselsdk_Example/Pods-MentalCounselsdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MentalCounselsdk_Example/Pods-MentalCounselsdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC08C8117F09EE1EA3379908517440E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB9871A6CC33D13D8D138763DEF5E9E /* MentalCounselsdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MentalCounselsdk/MentalCounselsdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MentalCounselsdk/MentalCounselsdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MentalCounselsdk/MentalCounselsdk.modulemap";
+				PRODUCT_MODULE_NAME = MentalCounselsdk;
+				PRODUCT_NAME = MentalCounselsdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1801EEBA4A945E6E1CE978BE3797E5F5 /* Build configuration list for PBXNativeTarget "Pods-MentalCounselsdk_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E1260C30888DFD4CAD5E016E40FCAC /* Debug */,
+				4909D3276C395F92ABCAAFCC687F6D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8591FF6D3AA0258C99E5672FDBF2FCDE /* Build configuration list for PBXNativeTarget "Pods-MentalCounselsdk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16F4A1014FE3579FF61B62DF1AF9ADC /* Debug */,
+				24008FB390396E404E0F0DDD978D72A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D29E5E69C980810D9ECFD7D5095CE10 /* Build configuration list for PBXNativeTarget "MentalCounselsdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC08C8117F09EE1EA3379908517440E9 /* Debug */,
+				1366B5E9926387AEFFB390CB251E0030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

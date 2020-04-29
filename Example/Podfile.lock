@@ -1,0 +1,16 @@
+PODS:
+  - MentalCounselsdk (0.1.0)
+
+DEPENDENCIES:
+  - MentalCounselsdk (from `../`)
+
+EXTERNAL SOURCES:
+  MentalCounselsdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MentalCounselsdk: 9a33127d871b57ab8257aa9f5ff3ab3901c09499
+
+PODFILE CHECKSUM: d6e1641b2deb3f667b95fffa6e640d892e8081c0
+
+COCOAPODS: 1.7.5
