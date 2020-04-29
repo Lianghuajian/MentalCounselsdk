@@ -1,5 +1,4 @@
 # MentalCounselsdk
-<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/lianghuajian/MentalCounselsdk.svg?style=flat)](https://travis-ci.org/lianghuajian/MentalCounselsdk)
 [![Version](https://img.shields.io/cocoapods/v/MentalCounselsdk.svg?style=flat)](https://cocoapods.org/pods/MentalCounselsdk)
