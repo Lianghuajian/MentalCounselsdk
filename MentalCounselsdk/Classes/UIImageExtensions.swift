@@ -9,34 +9,45 @@ import UIKit
 
 public extension UIImage {
     
-    static func image(named name: String, bundleName: String) -> UIImage? {
-        guard let bundleWithImage = Bundle.bundle(name: bundleName) else {
-            return nil
-        }
+    convenience init?(named name: String, bundleName: String) {
+        let bundleWithImage = Bundle.init(name: bundleName)
         if #available(iOS 13.0, *) {
-            return UIImage.init(named: name, in: bundleWithImage, with:nil)
+            self.init(named: name, in: bundleWithImage, with:nil)
         } else {
             // Fallback on earlier versions
-            return UIImage.init(named: name, in: bundleWithImage, compatibleWith: UIApplication.shared.keyWindow?.traitCollection)
+            self.init(named: name, in: bundleWithImage, compatibleWith: UIApplication.shared.keyWindow?.traitCollection)
         }
     }
     
-    static func imageWithColor(color: UIColor) -> UIImage? {
-        return imageWithColor(color: color, size: .init(width: 0.0, height: 0.0))
+    convenience init?(color: UIColor) {
+        self.init(color: color, size: CGSize.init(width: 1.0, height: 1.0))
     }
     
-    static func imageWithColor(color: UIColor, size: CGSize) -> UIImage? {
+    convenience init?(color: UIColor, size: CGSize) {
+        
         guard size.width > 0 && size.height > 0 else {
-            return nil
+            self.init()
+            return
         }
+        
         let rect = CGRect.init(x: 0.0, y: 0.0, width: size.width, height: size.height)
+        
         UIGraphicsBeginImageContextWithOptions(rect.size, false, 0)
+        
+        defer {
+            UIGraphicsEndImageContext()
+        }
+        
         let context = UIGraphicsGetCurrentContext()
         context?.setFillColor(color.cgColor)
         context?.fill(rect)
-        let coloredImage = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        return coloredImage
+        
+        guard let cgImage = UIGraphicsGetImageFromCurrentImageContext()?.cgImage else {
+            self.init()
+            return
+        }
+        
+        self.init(cgImage: cgImage)
     }
     
     func imageWithTintColor(color: UIColor) -> UIImage {

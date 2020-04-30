@@ -8,18 +8,21 @@
 import Foundation
 
 public extension Bundle {
-    static func bundle(name: String) -> Bundle? {
+    convenience init?(name: String) {
         guard let resourcePath = Bundle.main.resourcePath else {
-            return nil
+            self.init()
+            return
         }
-        var bundlePath: URL = URL(fileURLWithPath: resourcePath + "/" + name)
-        if bundlePath.pathExtension.isEmpty {
-            bundlePath.appendPathExtension("bundle")
+        var bundleURL: URL = URL(fileURLWithPath: resourcePath + "/" + name)
+        if bundleURL.pathExtension.isEmpty {
+            bundleURL.appendPathExtension("bundle")
         }
-        if !FileManager.default.fileExists(atPath: bundlePath.path)  {
-            assert(false, "Bundle not found in: \(bundlePath.path)")
-            return nil
+        if !FileManager.default.fileExists(atPath: bundleURL.path)  {
+            assert(false, "Bundle not found in: \(bundleURL.path)")
+            self.init()
+            return
         }
-        return Bundle(path: bundlePath.path)
+        self.init(path: bundleURL.path)
     }
 }
+
