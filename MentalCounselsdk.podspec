@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   
   s.name             = 'MentalCounselsdk'
   
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   
   s.summary          = 'Base sdk for project MentalCounsel.'
   

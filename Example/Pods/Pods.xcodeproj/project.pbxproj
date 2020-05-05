@@ -14,6 +14,7 @@
 		3178B481CDF6097DA09AC5689188E442 /* Pods-MentalCounselsdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14353B8D6E9F4F4901F00C6BC443217D /* Pods-MentalCounselsdk_Tests-dummy.m */; };
 		34BF020E52D9ADAAAF90CB62355C1AA2 /* Pods-MentalCounselsdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E1A4A3A5723B100923423656E990612 /* Pods-MentalCounselsdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		461B40E8A8861C3CE99B6470AF9E583A /* MentalCounselsdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36164DB184A7DAC8A27235ECB48672EC /* MentalCounselsdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6964BE7724610A1700A73815 /* JsonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6964BE7624610A1700A73815 /* JsonExtensions.swift */; };
 		69A07719AEEE8563D03067E181452E1A /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ECCA8810CB30A870967FC5F872EA61 /* NSObjectExtension.swift */; };
 		806A52FE39B2CBD843C13F90492609B4 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C8631FB2DDE5A60E3F17438A961C8 /* UIImageExtensions.swift */; };
 		A55410896E81672FADABCBDE52DCA1DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -41,14 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01AC4FDA53F09CDAC817997265652C30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		01AC4FDA53F09CDAC817997265652C30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0C03399357BEC5D26A9429B9CE7A2A36 /* MentalCounselsdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MentalCounselsdk-Info.plist"; sourceTree = "<group>"; };
 		0D7C3222EA4151B8AF60DB35C4CEF7C7 /* Pods-MentalCounselsdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalCounselsdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		126B71B9B6606CEF48A9D4EDA48C989B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		126B71B9B6606CEF48A9D4EDA48C989B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		14353B8D6E9F4F4901F00C6BC443217D /* Pods-MentalCounselsdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MentalCounselsdk_Tests-dummy.m"; sourceTree = "<group>"; };
 		26EB9E68E36C26F132CF07E7ABF7FA37 /* Pods-MentalCounselsdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalCounselsdk_Example-Info.plist"; sourceTree = "<group>"; };
 		2D2AA2A985863920B6918E55CF6321DE /* Pods-MentalCounselsdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalCounselsdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		31C441BDE6EDBBE073906AD9F0A2A51B /* Pods_MentalCounselsdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MentalCounselsdk_Tests.framework; path = "Pods-MentalCounselsdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C441BDE6EDBBE073906AD9F0A2A51B /* Pods_MentalCounselsdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalCounselsdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		36164DB184A7DAC8A27235ECB48672EC /* MentalCounselsdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MentalCounselsdk-umbrella.h"; sourceTree = "<group>"; };
 		38E431087952AE6D43E2AAB7332153EE /* Pods-MentalCounselsdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MentalCounselsdk_Tests.modulemap"; sourceTree = "<group>"; };
@@ -56,24 +57,25 @@
 		53ECCA8810CB30A870967FC5F872EA61 /* NSObjectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSObjectExtension.swift; path = MentalCounselsdk/Classes/NSObjectExtension.swift; sourceTree = "<group>"; };
 		5EC8DAAB78D272BF6943242B90D5ACD1 /* Pods-MentalCounselsdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MentalCounselsdk_Example-umbrella.h"; sourceTree = "<group>"; };
 		5F6C8631FB2DDE5A60E3F17438A961C8 /* UIImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = MentalCounselsdk/Classes/UIImageExtensions.swift; sourceTree = "<group>"; };
+		6964BE7624610A1700A73815 /* JsonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonExtensions.swift; sourceTree = "<group>"; };
 		6EA812A91A0034A8698B9B72DD5A4702 /* Pods-MentalCounselsdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalCounselsdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		715F9D2F22A491038A67A6BF03440D8D /* Pods-MentalCounselsdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MentalCounselsdk_Tests-Info.plist"; sourceTree = "<group>"; };
-		73FF82A36E30F68226BC67076CF38692 /* MentalCounselsdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MentalCounselsdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73FF82A36E30F68226BC67076CF38692 /* MentalCounselsdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MentalCounselsdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		792369C0C7749694758A66FADCE11C7A /* Pods-MentalCounselsdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MentalCounselsdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8695C82D61D6C131DD329AC06242A24F /* MentalCounselsdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MentalCounselsdk-dummy.m"; sourceTree = "<group>"; };
 		8CC6C08423117A67D545E1E5C89AF651 /* Pods-MentalCounselsdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalCounselsdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8E1A4A3A5723B100923423656E990612 /* Pods-MentalCounselsdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MentalCounselsdk_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FDFF3FE439034F84D61DC45290CE164 /* Pods-MentalCounselsdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MentalCounselsdk_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AC630255A57F0141AA17D9022620A2EF /* Pods-MentalCounselsdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalCounselsdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AD514A704222E51FF9DD54BB40085B60 /* MentalCounselsdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MentalCounselsdk.framework; path = MentalCounselsdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD514A704222E51FF9DD54BB40085B60 /* MentalCounselsdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MentalCounselsdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E474A354AAEBF5DBB121D24AA7E30CB4 /* Pods-MentalCounselsdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MentalCounselsdk_Example.modulemap"; sourceTree = "<group>"; };
 		E9875B31A9E3C1AFEA9D4DB5791033D2 /* Pods-MentalCounselsdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MentalCounselsdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F20B8B824E337AC8ECF1E76736E6215D /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = MentalCounselsdk/Classes/UIViewExtensions.swift; sourceTree = "<group>"; };
 		F2D167FA8981B1C0DEE412BA8FA7B340 /* UIScreenExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScreenExtension.swift; path = MentalCounselsdk/Classes/UIScreenExtension.swift; sourceTree = "<group>"; };
 		F58E0AE4D85A5248D52FC1D6C44710C0 /* Pods-MentalCounselsdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MentalCounselsdk_Example-dummy.m"; sourceTree = "<group>"; };
 		F6BE8A3EF0DA70C70B6F6CFC2F3EC99C /* MentalCounselsdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MentalCounselsdk.xcconfig; sourceTree = "<group>"; };
-		FAA4FBC4E39062552806F88E37E8D044 /* Pods_MentalCounselsdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MentalCounselsdk_Example.framework; path = "Pods-MentalCounselsdk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA4FBC4E39062552806F88E37E8D044 /* Pods_MentalCounselsdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MentalCounselsdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4BA4F5380DDE678438CEFCE00A5168 /* BundleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleExtensions.swift; path = MentalCounselsdk/Classes/BundleExtensions.swift; sourceTree = "<group>"; };
 		FD5F3DEA618521618CC3E997FCD221C9 /* MentalCounselsdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MentalCounselsdk.modulemap; sourceTree = "<group>"; };
 		FFA975DBD6A0F4CC948A827B42A3A001 /* MentalCounselsdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MentalCounselsdk-prefix.pch"; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 				5F6C8631FB2DDE5A60E3F17438A961C8 /* UIImageExtensions.swift */,
 				F2D167FA8981B1C0DEE412BA8FA7B340 /* UIScreenExtension.swift */,
 				F20B8B824E337AC8ECF1E76736E6215D /* UIViewExtensions.swift */,
+				6964BE7624610A1700A73815 /* JsonExtensions.swift */,
 				23FCA0FFA499E66B9529B06272624E10 /* Pod */,
 				E423BBA9FFE3DED2D5626FFAF0AF7F83 /* Support Files */,
 			);
@@ -377,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6964BE7724610A1700A73815 /* JsonExtensions.swift in Sources */,
 				210D30FD24BD56836E5DC37ABD41CDA4 /* BundleExtensions.swift in Sources */,
 				245A2AE3C6629D1D94A4CEC7581A40E0 /* MentalCounselsdk-dummy.m in Sources */,
 				69A07719AEEE8563D03067E181452E1A /* NSObjectExtension.swift in Sources */,
@@ -637,8 +641,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
