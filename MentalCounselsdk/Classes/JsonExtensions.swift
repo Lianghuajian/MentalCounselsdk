@@ -7,6 +7,21 @@
 
 import Foundation
 
+public extension Dictionary {
+    func toJsonString() -> String? {
+        if !JSONSerialization.isValidJSONObject(self) {
+            return nil
+        }
+        do {
+            let data = try JSONSerialization.data(withJSONObject: self, options: .fragmentsAllowed)
+            return String(data: data, encoding: String.Encoding.utf8)
+        } catch {
+            return nil
+        }
+    }
+}
+
+
 public extension NSDictionary {
     func toJsonString() -> String? {
         if !JSONSerialization.isValidJSONObject(self) {
